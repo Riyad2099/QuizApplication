@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="code.riyad.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity android:name="code.riyad.quizapp.GeographyOrLiteratureQuizActivity"></activity>
+        <activity android:name="code.riyad.quizapp.FinalResultActivity" />
+        <activity android:name="code.riyad.quizapp.MathQuizActivity" />
+        <activity android:name="code.riyad.quizapp.EditPasswordActivity" />
+        <activity android:name="code.riyad.quizapp.HistoryActivity" />
+        <activity android:name="code.riyad.quizapp.RuleActivity" />
+        <activity android:name="code.riyad.quizapp.QuizOptionActivity" />
+        <activity android:name="code.riyad.quizapp.RegisterActivity" />
+        <activity
+            android:name="code.riyad.quizapp.LoginActivity"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="code.riyad.quizapp.MainActivity" />
+    </application>
+
+</manifest>
